@@ -27,6 +27,25 @@
     flex-grow: 1
 }
 
+ul {
+    margin: 0;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    background: none;
+    border: 0px;
+    color: #888;
+    font-size: 15px;
+    width: 60px;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+}
+
 .task-row-wrapper {
     display: flex;
     padding: 20px 0;
