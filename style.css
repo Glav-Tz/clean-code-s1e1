@@ -15,14 +15,21 @@
     width: 100%;
 }
 
-.aaa .more_inf {
+.link {
+    display: block;
     font-family: fantasy, cursive;
+    text-align: right;
 }
 
-@media (max-width:768px) {
-    .aaa {
-        text-align: center;
-    }
+.incomp-lete-tasks__task {
+    width: 56%;
+    display: inline-block;
+    flex-grow: 1
+}
+
+.task-row-wrapper {
+    display: flex;
+    padding: 20px 0;
 }
 
 .centered-main-page-element {
