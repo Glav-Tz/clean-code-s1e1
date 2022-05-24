@@ -8,7 +8,7 @@
 .header,
 .main {
     width: 500px;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
 .logo {
@@ -16,9 +16,9 @@
 }
 
 .link {
-    display: block;
-    font-family: fantasy, cursive;
-    text-align: right;
+  display: block;
+  font-family: fantasy, cursive;
+  text-align: right;
 }
 
 .incomp-lete-tasks__task {
@@ -33,12 +33,12 @@
 }
 
 ul {
-    margin: 0;
+    margin:0;
     padding: 0px;
 }
 
 li {
-    list-style: none;
+  list-style:none;
 }
 
 button {
@@ -105,18 +105,18 @@ li {
     align-items: center;
 }
 
-li>* {
+li > * {
     vertical-align: middle;
 }
 
-li>input[type="checkbox"] {
+li > input[type="checkbox"] {
     margin: 0 10px;
 }
 
-li>label {
+li > label {
     padding-left: 10px;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 18px;    
 }
 
 button.incomp-lete-tasks__delete img {
@@ -137,20 +137,20 @@ ul.incomp-lete-tasks_completed-tasks label {
 
 /* Edit Task */
 ul li input[type=text] {
-    display: none;
+    display:none;
 }
 
 ul li.incomp-lete-tasks__item_editMode input[type=text] {
-    display: inline-block;
+    display:inline-block;
     width: 224px;
 }
 
 ul li.incomp-lete-tasks__item_editMode label {
-    display: none;
+    display:none;
 }
 
 @media (max-width: 768px) {
-    .header {
-        text-align: center;
-    }
+  .header { 
+    text-align: center;
+  }
 }
